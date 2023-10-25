@@ -24,3 +24,6 @@ def check_prime(num):
 
 def reverse_string(input_string):
     return input_string[::-1]
+
+def calculate_average(*args):
+    return sum(args) / len(args)
