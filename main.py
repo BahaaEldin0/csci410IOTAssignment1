@@ -21,3 +21,6 @@ def check_prime(num):
             return False
         i += 6
     return True
+
+def reverse_string(input_string):
+    return input_string[::-1]
