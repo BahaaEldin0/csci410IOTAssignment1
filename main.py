@@ -31,3 +31,14 @@ def calculate_average(*args):
 def count_vowels(input_string):
     vowels = "AEIOUaeiou"
     return sum(input_string.count(vowel) for vowel in vowels)
+
+def prime_factorization(number):
+    factors = []
+    divisor = 2
+    while number > 1:
+        if number % divisor == 0:
+            factors.append(divisor)
+            number //= divisor
+        else:
+            divisor += 1
+    return factors
