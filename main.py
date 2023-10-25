@@ -1,4 +1,5 @@
-def calculate_sum(*args):
+#Done Bahaa Eldin Moustafa 202000498
+def calculate_sum(*args):   
     return sum(args)
 
 def generate_fibonacci(N):
@@ -7,6 +8,9 @@ def generate_fibonacci(N):
         next_number = fib_sequence[-1] + fib_sequence[-2]
         fib_sequence.append(next_number)
     return ' '.join(map(str, fib_sequence))
+
+
+#Done Anas Hany Kamal 19100081
 
 def check_prime(num):
     if num <= 1:
@@ -25,12 +29,17 @@ def check_prime(num):
 def reverse_string(input_string):
     return input_string[::-1]
 
+
+#Done Abdelrahman Atrozy 202001188
 def calculate_average(*args):
     return sum(args) / len(args)
 
 def count_vowels(input_string):
     vowels = "AEIOUaeiou"
     return sum(input_string.count(vowel) for vowel in vowels)
+
+
+#Done Mohamed Ahmed Mohamed 202000991
 
 def prime_factorization(number):
     factors = []
