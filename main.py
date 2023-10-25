@@ -42,3 +42,8 @@ def prime_factorization(number):
         else:
             divisor += 1
     return factors
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
